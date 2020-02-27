@@ -20,6 +20,7 @@ namespace TiposVarios
             float g = 3.14159f;
             decimal h = 3.14159m;
             double i =1_712_432.23;
+            bool j = false; 
 
 
             Console.WriteLine(x);
@@ -34,6 +35,8 @@ namespace TiposVarios
             Console.WriteLine(g);
             Console.WriteLine(h);
             Console.WriteLine(i);
+            Console.WriteLine(j);
+            
             
         }
     }
