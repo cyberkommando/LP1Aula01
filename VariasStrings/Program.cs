@@ -6,6 +6,8 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
             int x = 0;
             int y = 2;
             int z = 5;
@@ -24,6 +26,10 @@ namespace VariasStrings
             string i = String.Format("Arg {0} e {1}", t, s);
             string j = String.Format("Arg {1} e {0}", v3, v4);
             Console.WriteLine("Como estás {0}", x);
+            string  xx1 = $"xx = {xx:f2}";
+            string xx2 = $"xx = {xx:p1}";
+            string ii1 = $"ii = {ii:x}";
+            string ii2 = $"ii = {ii:c}";
 
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -35,6 +41,10 @@ namespace VariasStrings
             Console.WriteLine(h);
             Console.WriteLine(i);
             Console.WriteLine(j);
+            Console.WriteLine(xx1);
+            Console.WriteLine(xx2);
+            Console.WriteLine(ii1);
+            Console.WriteLine(ii2);
 
 
         }
