@@ -16,6 +16,10 @@ namespace TiposVarios
             uint c = 0x10U;
             int d = 0b10110110;
             char e = '\u0065';
+            double f = 3.14159;
+            float g = 3.14159f;
+            decimal h = 3.14159m;
+            double i =1_712_432.23;
 
 
             Console.WriteLine(x);
@@ -26,6 +30,10 @@ namespace TiposVarios
             Console.WriteLine(c);
             Console.WriteLine(d);
             Console.WriteLine(e);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
+            Console.WriteLine(i);
             
         }
     }
